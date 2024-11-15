@@ -1,0 +1,14 @@
+{
+  "name": "instant-launch-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for tracking financial social media posts",
+  "main": "background.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r * dist/ && rm -rf dist/dist dist/node_modules dist/package.json dist/package-lock.json"
+  },
+  "dependencies": {
+    "cropperjs": "^1.5.13",
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0"
+  }
+}
